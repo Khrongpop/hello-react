@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { increment, decrement } from '../actions'
 const App = ({ message, counter, dispatch }) => (
   <div className="container">
-
+    {message}
     <div className="columns column is-12">
       <h1>Counter : {counter}</h1>
     </div>
